@@ -1,8 +1,6 @@
 # DevOps-project-1
 # DevSecOps: Blue-Green Deployment of Swiggy-Clone on AWS ECS with AWS Code Pipeline
 
-![](https://miro.medium.com/v2/resize:fit:802/1*sHlD2d3AfaxzYEDlegzHhg.png)
-
 # **Introduction:**
 
 In the realm of modern software development, DevSecOps practices are gaining prominence for their emphasis on integrating security seamlessly into the software development lifecycle. One critical aspect of this approach is implementing efficient deployment strategies that not only ensure reliability but also maintain security standards. In this blog post, we will delve into the concept of Blue-Green deployment and demonstrate how to apply it to a Swiggy-clone application hosted on AWS ECS (Elastic Container Service) using AWS Code Pipeline.
@@ -26,8 +24,6 @@ AWS CodePipeline is a fully managed continuous integration and continuous delive
 - B. Use CodeDeploy to deploy the new version of your Swiggy-clone application to the Green service.  
 - C. After deployment, automate the ALB routing to gradually shift traffic from the Blue service to the Green service based on predefined health checks.  
 - D. Monitor the deployment process and rollback automatically if issues occur during the transition.
-
-## GitHub Source Code Repo: [HERE](https://github.com/NotHarshhaa/DevOps-Projects/tree/master/DevOps-Project-23/Swiggy_clone)
 
 # **Step:-1 : Create a Sonar Server**
 
